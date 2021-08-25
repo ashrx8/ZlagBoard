@@ -328,10 +328,7 @@ List data = [
 ];
 List<Data> mainData = data.map((i) => Data.fromJson(i)).toList();
 
-/* class MyHomePage extends StatefulWidget {
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-} */
+
 
 class MyHomePage extends ConsumerWidget {
   @override
